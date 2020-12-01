@@ -3,8 +3,12 @@ import "./Footer.scss";
 
 const Footer = () => { 
     return ( 
-        <footer>
-            Footer
+        <footer className="footer">
+            <p>&copy; 2020 Travelize</p>
+            <ul className="footer__links">
+                <li className="footer__link">Privacy Policy</li>
+                <li className="footer__link">Terms and Conditions</li>
+            </ul>
         </footer>
     )
 };

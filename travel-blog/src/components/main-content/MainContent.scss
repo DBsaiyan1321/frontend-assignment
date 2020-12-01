@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$site-width: 1200px;
+$hero-width: 1600px;
+$profile-image-width: 300px;
+
+$gutter: 8px;
+$gray: #333;
+$primary: #1977F3;
+$primary-light: #EEF5FE;
+
+$small-breakpoint: 500px;
+$medium-breakpoint: 960px;
+
+.hero-background {
+    width: $hero-width;
+}
+
+.headshot { 
+    max-width: $profile-image-width;
+    max-height: 300px;
+    border-radius: 150px;
+}
+
+.grid { 
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: $gutter;
+    max-width: $site-width;
+}
+
+.bottom { 
+    display: flex;
+    justify-content: center;
+}

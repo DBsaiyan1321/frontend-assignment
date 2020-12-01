@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <nav className="nav">
             <div> 
-                <h1>Travelize</h1>
-                <h2>My traveling experiences</h2>
+                <h1 className="title">Travelize</h1>
+                <h2 className="titletwo">My traveling experiences</h2>
             </div>
             <ul className="links">
                 <li className="links__elem">Home</li>
