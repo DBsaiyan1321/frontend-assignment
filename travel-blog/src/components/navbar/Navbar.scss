@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$site-width: 1200px;
+$hero-width: 1600px;
+$profile-image-width: 300px;
+
+$gutter: 8px;
+$gray: #333;
+$primary: #1977F3;
+$primary-light: #EEF5FE;
+
+$small-breakpoint: 500px;
+$medium-breakpoint: 960px;
+
+.nav { 
+    background-color: $primary-light;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.links { 
+    display: flex;
+    list-style: none;
+}
+
+.links__elem { 
+    border-radius: 5px;
+    height: fit-content;
+    padding: 5px 15px;
+}
+
+.links__elem:hover { 
+    cursor: pointer;
+}
+
+.links__elem--blue { 
+    background-color: $primary;
+    color: white;
+}
