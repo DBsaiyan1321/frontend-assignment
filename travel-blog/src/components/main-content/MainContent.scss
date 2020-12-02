@@ -1,19 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-$site-width: 1200px;
-$hero-width: 1600px;
-$profile-image-width: 300px;
-
-$gutter: 8px;
-$gray: #333;
-$primary: #1977F3;
-$primary-light: #EEF5FE;
-
-$small-breakpoint: 500px;
-$medium-breakpoint: 960px;
+@import "../../App.scss";
 
 .hero-background {
-    width: $hero-width;
+    max-width: $hero-width;
+    width: 100%;
 }
 
 .headshot { 
@@ -22,14 +11,15 @@ $medium-breakpoint: 960px;
     border-radius: 150px;
 }
 
-.grid { 
+.profile__info { 
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: $gutter;
+    column-gap: 32px;
     max-width: $site-width;
+    margin: 32px;
 }
 
-.bottom { 
+.profile { 
     display: flex;
     justify-content: center;
 }

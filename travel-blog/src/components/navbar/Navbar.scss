@@ -1,22 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-$site-width: 1200px;
-$hero-width: 1600px;
-$profile-image-width: 300px;
-
-$gutter: 8px;
-$gray: #333;
-$primary: #1977F3;
-$primary-light: #EEF5FE;
-
-$small-breakpoint: 500px;
-$medium-breakpoint: 960px;
+@import "../../App.scss";
 
 .nav { 
     background-color: $primary-light;
     display: flex;
     justify-content: space-around;
     font-size: 16px;
+    padding: 5px 0;
+}
+
+.title { 
+    font-weight: 300;
+    font-size: 32px;
+    margin: 0;
+}
+
+.sub-title { 
+    font-weight: 100;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
 }
 
 .links { 
@@ -37,17 +39,4 @@ $medium-breakpoint: 960px;
 .links__elem--blue { 
     background-color: $primary;
     color: white;
-}
-
-.title { 
-    font-weight: 300;
-    font-size: 32px;
-    margin: 0;
-}
-
-.titletwo { 
-    font-weight: 100;
-    font-size: 16px;
-    font-style: italic;
-    margin: 0;
 }

@@ -7,8 +7,8 @@ const MainContent = () => {
     return ( 
         <main>
             <img src={HeroBackground} className="hero-background" />
-            <div className="bottom"> 
-                <div className="grid">
+            <div className="profile"> 
+                <div className="profile__info">
                     <img width="300" height="300" src={Headshot} className="headshot" />
                     <div>
                         <h1>A little about me</h1>
